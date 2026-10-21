@@ -1,0 +1,232 @@
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0b0f1a;
+    color: rgb(255, 9, 9);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: px;
+    background-color: rgb(107, 107, 112);
+    border-bottom: 50px solid black:
+}
+
+.logo{
+    background-color: rgb(10, 10, 10);
+    font-size:30px;
+    font-weight: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+.welcome{
+    display:flex;
+    cursor:pointer;
+    color: rgb(156, 39, 39);
+    font-size: 50px;
+    font-weight:bolder;
+    white-space: nowrap;
+    letter-spacing: 8px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+
+
+
+.logo img{
+    height:100px;
+
+}
+
+.tags{
+    display: flex;
+    flex-direction: row;
+    align-items:first baseline;
+    row-gap: 20px;
+    column-gap: 20px;
+    font-size: 20px;
+    color: rgb(221, 231, 231);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: black;
+    min-height: 50px;
+    box-sizing: border-box;
+    gap: 25px;
+
+}
+
+.searchbox{
+    display:flex;
+    gap:20px;
+    font-size: 40px;
+    
+}
+.searchbox input{
+    width: 1500px;
+    padding: 1px;
+    border:1px solid;
+    border-radius:2px;
+    align-items: center;
+}
+.searchbox button{
+     padding: 50px 400px;
+     background-color: grey;
+     color: aliceblue;
+     border:1px;
+     border-radius: 5px;
+     cursor: pointer;
+}
+.rightsearch{
+     display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    row-gap: calc(50px);
+}
+
+
+
+.hero-description div{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: rgb(255, 3, 3);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.hero-tag{
+    font-size: 100px;
+    align-items: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    color: rgba(198, 223, 222, 0.695);
+    gap: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.html,body{
+    min-height: auto;
+    overflow-y: auto;
+}
+.body{
+    margin: 0;
+}
+h1{
+margin-top: 50px;
+margin-bottom: 50px;
+}
+.hero-description img{
+    display: block;
+    margin: 0 auto;
+}
+.hero{
+    min-height: 800vh;
+    overflow-y: visible;
+    color: gold;
+}
+.sportscd{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.boxing{
+    margin-bottom:  50px;
+    font-size: 24px;
+
+}
+
+.xtr{
+    font-size: 30px;
+    margin-top: 20px;
+    color: rgb(255, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 80px
+    
+    
+}
+
+.xtr img{
+width: 700px;
+    margin-top: 40px;
+    margin-bottom: 80px
+
+
+}
+.hero-btn{
+display: block;
+font-size: 24px;
+text-align: center;
+color: ghostwhite;
+}
+
+.games-card-container{
+    display: flex;
+    margin-top: 80px;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(83, 3, 97, 0.602);
+    gap: 80px;
+    align-items: center;
+    padding: 20px;
+    min-height: 40vh;
+
+}
+.game-card{
+    font: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    margin: 30px;flex-direction: row;
+
+    flex-direction: column;
+    font-size:50px;
+    font-weight: 100px;
+    background-color:rgb(4, 4, 140);
+    align-items: center;
+    gap:50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 350px;
+    height: 350px
+
+}
+
+.game-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgb(218, 221, 233);
+    
+}
+
+.game-card p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(233, 225, 235);
+    font-size: 130px;
+    font-weight: bolder;
+    margin-top: 50px; 
+}
+
+
+.game-card p:nth-child(2){
+    font-size: 30px;
+margin-top: -20px;
+}
+
+footer{
+    align-items: flex-end;
+    font-size: medium;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    padding: 10px;
+}
